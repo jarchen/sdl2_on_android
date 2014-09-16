@@ -3,12 +3,15 @@ SDL2 on Android
 
 This project is going to teach you how to port SDL2 library to Android platform.
 
-You need to do is following the steps.
+All you need to do is following the steps.
+
 
 ## Environment
 * OS: Ubuntu 12.04 64-bit
 * NDK: r9d
-* SDL2 Library source code [here](https://www.libsdl.org/download-2.0.php).
+
+## Download
+* SDL2 source code download from [here](https://www.libsdl.org/download-2.0.php).
  
 ## Steps:
 1. Copy _android-project_ from **${SDL2_SOURCE}/android-project** to other location, ex: **${your_path}/android-project**.
