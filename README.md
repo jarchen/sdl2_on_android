@@ -38,6 +38,9 @@ You need to do is following the steps.
     cd ${your_path}/android-project/
     ${NDK_PATH}/ndk-build
     ````
-1. Create a java file extends **SDLActivity** like [MainActivity](./android-project/src/my/app/MainActivity.java). 
+1. Create a java file extends **SDLActivity** like [MainActivity.java](./android-project/src/my/app/MainActivity.java).
 
-## Start to your SDL application.
+### Notes:
+You can change the platform you want to build for, which defined by `APP_ABI` in **${your_path}/android-project/jni/[Application.mk](./android-project/jni/Application.mk)**
+
+## Start to develop your SDL application.
