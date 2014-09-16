@@ -15,7 +15,7 @@ All you need to do is following the steps.
  
 ## Steps:
 1. Copy _android-project_ from **${SDL2_SOURCE}/android-project** to other location, ex: **${your_path}/android-project**.
-1. Create SDL folder and copy files into my/android-project/.
+1. Create SDL folder and copy files into **${your_path}/android-project/**.
 
     ````
     mkdir "${your_path}/android-project/jni/SDL"
@@ -44,6 +44,6 @@ All you need to do is following the steps.
 1. Create a java file extends **SDLActivity** like [MainActivity.java](./android-project/src/my/app/MainActivity.java).
 
 ### Notes:
-You can change the platform you want to build for, which defined by `APP_ABI` in **${your_path}/android-project/jni/[Application.mk](./android-project/jni/Application.mk)**
+You can set the platforms you want to build for. Bulding platforms are defined by `APP_ABI` in **${your_path}/android-project/jni/[Application.mk](./android-project/jni/Application.mk)**
 
 ## Start to develop your SDL application.
