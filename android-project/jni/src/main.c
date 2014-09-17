@@ -65,5 +65,11 @@ int main (int argc, char** argv) {
 		} // SDL_PollEvent
 	} // quit
 
+
+	SDL_DestroyRenderer(renderer);
+	SDL_DestroyWindow(win);
+
+	SDL_Quit();
+
 	return 0;
 }
