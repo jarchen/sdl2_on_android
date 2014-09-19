@@ -1,10 +1,8 @@
 SDL2 on Android
 ===========
 
-This project is going to teach you how to port SDL2 library to Android platform.
-
-All you need to do is following the steps.
-
+**SDL** is very popular and usefull library for rendering video, playin audio, and handling keyboard, mouse, and joystick events, etc.
+For helping the person, who want to use SDL to develop any applications. This project is going to give the instruction for proting SDL2 library on Android devices.
 
 ## Environment
 * OS: Ubuntu 12.04 64-bit
@@ -14,7 +12,7 @@ All you need to do is following the steps.
 * SDL2 source code download from [here](https://www.libsdl.org/download-2.0.php).
  
 ## Steps:
-1. Copy _android-project_ from **${SDL2_SOURCE}/android-project** to other location, ex: **${your_path}/android-project**.
+1. Copy _android-project_ from **${SDL2_SOURCE}/android-project** to other location (ex: **${your_path}/android-project**).
 1. Create SDL folder and copy files into **${your_path}/android-project/**.
 
     ````
@@ -23,7 +21,7 @@ All you need to do is following the steps.
     cp -r "${SDL2_SOURCE}/include" "${your_path}/android-project/jni/SDL/"
     cp "${SDL2_SOURCE}/Android.mk" "${your_path}/android-project/jni/SDL/"
     ````
-1. Create a new file (ex: [**main.c**](./android-project/jni/src/main.c)) under **${your_path}/android-project/jni/src/** and define _main function_ like following
+1. Create a new c/c++ file (ex: [**main.c**](./android-project/jni/src/main.c)) under **${your_path}/android-project/jni/src/** and define _main function_ like following
 
     ````
     // main.c
